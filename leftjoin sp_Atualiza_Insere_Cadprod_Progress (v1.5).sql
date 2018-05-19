@@ -1,15 +1,3 @@
-USE [SYSPROD_DESENV_SAP]
-GO
-/****** Object:  StoredProcedure [dbo].[sp_Atualiza_Insere_Cadprod_Progress]    Script Date: 18/05/2018 15:52:02 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-/******
-*Procedure resposavel pela integracao do produto na criacao.
-*Criada em: 14/05/2018 - Por: David Santos - Edesoft e João Souza Bemis
-*Alterado em: 18/08/2018 Por: David Santos
-******/
 ALTER PROCEDURE [dbo].[sp_Atualiza_Insere_Cadprod_Progress] @ID_EMP int, @CODPROD varchar(18)
 AS
 BEGIN
